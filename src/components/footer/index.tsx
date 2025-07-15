@@ -8,14 +8,14 @@ const FooterHero = () => {
       {/* Background Image */}
       <div className="relative h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px] xl:h-[500px] w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-40">
         <Image
-          src="/footer.jpg"
+          src="/serena/footer.jpg"
           alt="Serena team meeting"
           fill
           className="object-cover absolute bottom-0"
         />
 
         <Image
-          src="/gradient.png"
+          src="/serena/gradient.png"
           alt="gradient"
           fill
           className="object-cover absolute bottom-0"
