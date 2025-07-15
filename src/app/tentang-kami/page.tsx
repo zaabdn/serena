@@ -48,11 +48,11 @@ const AboutUsPage = () => {
           </div>
 
           <div className="md:pl-6 md:w-1/2">
-            <p className="font-bold text-3xl text-text-default-color">
+            <p className="font-bold text-2xl text-text-default-color">
               Tantang Kami
             </p>
             <p
-              className="text-justify text-text-default-color text-lg mt-5"
+              className="text-justify text-text-default-color mt-5"
               style={{ lineHeight: 2 }}
             >
               PT Serena Indo Pratama adalah perusahaan yang bergerak di industri
@@ -68,9 +68,9 @@ const AboutUsPage = () => {
       <section className="container mt-20">
         <div className="flex flex-col md:flex-row items-center overflow-hidden justify-between">
           <div className="md:w-1/2 md:pr-10">
-            <p className="font-bold text-4xl text-text-default-color">Visi</p>
+            <p className="font-bold text-2xl text-text-default-color">Visi</p>
             <p
-              className="text-justify text-text-default-color text-xl mt-5"
+              className="text-justify text-text-default-color mt-5"
               style={{ lineHeight: 2 }}
             >
               Menjadi perusahaan bumbu terkemuka di Indonesia dengan
@@ -107,9 +107,9 @@ const AboutUsPage = () => {
           </div>
 
           <div className="lg:pl-6 md:w-1/2">
-            <p className="font-bold text-4xl text-text-default-color">Misi</p>
+            <p className="font-bold text-2xl text-text-default-color">Misi</p>
             <p
-              className="text-justify text-text-default-color text-xl mt-5"
+              className="text-justify text-text-default-color mt-5"
               style={{ lineHeight: 2 }}
             >
               Kami percaya bahwa visi besar hanya dapat terwujud melalui
@@ -133,11 +133,11 @@ const AboutUsPage = () => {
       </section>
 
       <section className="container mt-20">
-        <p className="font-bold text-4xl text-text-default-color">
+        <p className="font-bold text-2xl text-text-default-color">
           Perjalanan Kami
         </p>
         <p
-          className="text-justify text-text-default-color text-xl mt-5"
+          className="text-justify text-text-default-color mt-5"
           style={{ lineHeight: 2 }}
         >
           Setiap langkah dalam proses produksi PT Serena Indo Pratama dilakukan
@@ -163,10 +163,10 @@ const AboutUsPage = () => {
 
               {/* Content */}
               <div className="ml-6 sm:ml-8 md:ml-10 mt-[-2px] sm:mt-[-4px] flex-1 min-w-0">
-                <h3 className="font-semibold text-lg sm:text-xl md:text-2xl text-text-default-color mb-1 sm:mb-2">
+                <h3 className="font-semibold text-sm sm:text-base md:text-lg text-text-default-color mb-1 sm:mb-2">
                   {milestone.year}
                 </h3>
-                <p className="text-text-secondary-color text-sm sm:text-base md:text-lg text-justify leading-relaxed pr-4 sm:pr-6 md:pr-8">
+                <p className="text-text-secondary-color text-xs md:text-sm text-justify leading-relaxed pr-4 sm:pr-6 md:pr-8">
                   {milestone.description}
                 </p>
               </div>
