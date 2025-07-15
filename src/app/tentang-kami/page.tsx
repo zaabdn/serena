@@ -48,11 +48,11 @@ const AboutUsPage = () => {
           </div>
 
           <div className="md:pl-6 md:w-1/2">
-            <p className="font-bold text-4xl text-text-default-color">
+            <p className="font-bold text-3xl text-text-default-color">
               Tantang Kami
             </p>
             <p
-              className="text-justify text-text-default-color text-xl mt-5"
+              className="text-justify text-text-default-color text-lg mt-5"
               style={{ lineHeight: 2 }}
             >
               PT Serena Indo Pratama adalah perusahaan yang bergerak di industri
