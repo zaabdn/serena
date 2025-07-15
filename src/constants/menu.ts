@@ -1,15 +1,11 @@
 export const DATA_MENU = [
-  // {
-  //   path: "/",
-  //   title: "Beranda",
-  // },
-  {
-    path: "/tentang-kami",
-    title: "Tentang Kami",
-  },
   {
     path: "/produk",
     title: "Produk",
+  },
+  {
+    path: "/tentang-kami",
+    title: "Tentang Kami",
   },
   {
     path: "/proses",

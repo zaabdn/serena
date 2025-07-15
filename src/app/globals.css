@@ -9,14 +9,13 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-primary-color: #f89c13;
-  --color-secondary-color: "#8F1D13";
-  --color-third-color: "#F85C13";
-  --color-fourth-color: "#F8D8B0";
-  --color-fifth-color: "#4C0F0A";
-
-  --color-default-color: "#2B1B16";
-  --color-text-secondary-color: "#96784F";
-  --color-text-third-color: "#70707B";
+  --color-secondary-color: #8f1d13;
+  --color-third-color: #f85c13;
+  --color-fourth-color: #f8d8b0;
+  --color-fifth-color: #4c0f0a;
+  --color-text-default-color: #2b1b16;
+  --color-text-secondary-color: #96784f;
+  --color-text-third-color: #70707b;
 
   --color-neutral-color: "#F1F1F1";
   --color-line-color: "#E2C5A4";
