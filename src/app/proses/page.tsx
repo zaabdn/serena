@@ -6,18 +6,18 @@ import { LIST_PROCESS } from "@/constants/content-process";
 import Image from "next/image";
 
 const ProcessPage = () => {
-  const pdfUrl = "/SertifikatSerena.pdf";
+  const pdfUrl = "/serena/SertifikatSerena.pdf";
 
   return (
     <AppLayout>
       <section className="container mt-5">
         <div className="flex flex-col overflow-hidden">
-          <p className="font-bold text-4xl text-text-default-color">
+          <p className="font-bold text-2xl text-text-default-color">
             Proses Kami: Menjamin Kehalalan dan Kualitas Produk dengan Standar
             Tertinggi
           </p>
           <p
-            className="text-justify text-text-default-color text-xl mt-5"
+            className="text-justify text-text-default-color mt-5"
             style={{ lineHeight: 2 }}
           >
             Setiap langkah dalam proses produksi PT Serena Indo Pratama
@@ -36,12 +36,12 @@ const ProcessPage = () => {
             key={process.id}
           >
             <div className="md:w-3/4 p-6">
-              <h2 className="text-2xl font-bold text-text-default-color mb-4">
+              <h2 className="text-lg font-bold text-text-default-color mb-4">
                 {process.title}
               </h2>
 
               <div className="mb-6">
-                <p className="text-text-secondary-color text-justify leading-relaxed">
+                <p className="text-text-secondary-color text-justify leading-relaxed text-xs">
                   {process.description}
                 </p>
               </div>
@@ -59,7 +59,7 @@ const ProcessPage = () => {
       </section>
 
       <section className="container mt-10">
-        <h2 className="text-2xl font-bold text-text-default-color mb-4">
+        <h2 className="text-lg font-bold text-text-default-color mb-4">
           Surat Ijin Legalitas ISO
         </h2>
         <div className="w-full h-[50vh] md:h-[100vh] bg-white shadow-lg rounded-lg overflow-hidden">

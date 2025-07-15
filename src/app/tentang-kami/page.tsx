@@ -121,7 +121,7 @@ const AboutUsPage = () => {
               <ul className="list-disc space-y-3 leading-relaxed">
                 {missions.map((mission, index) => (
                   <li key={index}>
-                    <p className="text-justify text-text-default-color text-xl">
+                    <p className="text-justify text-text-default-color">
                       {mission}
                     </p>
                   </li>
