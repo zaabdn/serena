@@ -49,8 +49,8 @@ const ProcessPage = () => {
             <Image
               alt={`process-${process.id}`}
               src={process.image}
-              width={351}
-              height={284.66}
+              width={105}
+              height={85}
               sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 25vw"
               className="object-contain"
             />
