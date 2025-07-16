@@ -2,7 +2,7 @@ import { memo } from "react";
 
 const Jumbotron = () => {
   return (
-    <section className="bg-center mt-5 rounded-2xl bg-[url('/serena/banner.png')] bg-blend-multiply">
+    <section className="bg-center bg-auto mt-5 rounded-2xl bg-[url('/serena/banner.png')] bg-blend-multiply">
       <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1
           className="font-[family-name:var(--font-libre-baskerville)] mb-4 text-lg md:text-2xl md:px-24 font-extrabold text-white"

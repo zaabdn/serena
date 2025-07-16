@@ -55,7 +55,7 @@ const Navbar = () => {
         className={`navbar-menu absolute md:static top-20 left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none transition-all duration-300 ease-in-out
         ${
           isMenuOpen ? "block" : "hidden"
-        } md:flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-10 py-4 md:py-0`}
+        } md:flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 py-4 md:py-0`}
       >
         {DATA_MENU.map((menu) => (
           <Link
