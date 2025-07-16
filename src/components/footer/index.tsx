@@ -27,7 +27,7 @@ const FooterHero = () => {
           <div className="flex-1 flex items-center justify-center">
             <h1
               style={{ lineHeight: 1.4 }}
-              className="w-full sm:w-5/6 md:w-4/5 lg:w-3/4 xl:w-2/3 text-center mx-auto text-white font-[family-name:var(--font-libre-baskerville)] text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-extrabold"
+              className="font-[family-name:var(--font-libre-baskerville)] mb-4 text-4xl md:text-5xl md:px-24 leading-15 font-extrabold text-white"
             >
               Wujudkan gorengan terbaik dengan kualitas coating dari Serena
             </h1>
@@ -62,7 +62,7 @@ const FooterHero = () => {
 
             {/* Contact CTA */}
             <div className="flex flex-col items-center lg:items-end text-center lg:text-right">
-              <p className="text-sm sm:text-base md:text-lg mb-3 md:mb-4">
+              <p className="text-sm sm:text-base mb-3 md:mb-4">
                 Yuk, ngobrol dengan tim Serena sekarang
               </p>
               <a
@@ -70,7 +70,7 @@ const FooterHero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="cursor-pointer bg-primary-color text-text-default-color px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-md text-sm sm:text-base font-medium transition hover:opacity-90 active:scale-95">
+                <button className="cursor-pointer bg-primary-color text-text-default-color px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-md text-sm sm:text-base transition hover:opacity-90 active:scale-95">
                   Hubungi Kami
                 </button>
               </a>

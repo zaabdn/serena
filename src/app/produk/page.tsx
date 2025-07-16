@@ -19,11 +19,11 @@ const ProductPage = () => {
       <section className="container mt-5">
         <div className="flex flex-col md:flex-row items-center overflow-hidden justify-between">
           <div className="md:w-2/3 md:pr-10">
-            <p className="font-bold text-4xl text-text-default-color">
+            <p className="font-bold text-2xl text-text-default-color">
               Solusi Food Coating Berkualitas untuk Industri Pangan
             </p>
             <p
-              className="text-justify text-text-default-color text-xl mt-5"
+              className="text-justify text-text-default-color mt-2"
               style={{ lineHeight: 2 }}
             >
               Di Serena Indo Pratama, kami percaya bahwa kualitas sajian dimulai
@@ -69,14 +69,14 @@ const ProductPage = () => {
             className="mx-auto p-6 bg-[#FFF9F4] rounded-lg mt-6"
             key={product.id}
           >
-            <h2 className="text-2xl font-bold text-text-default-color mb-4">
+            <h2 className="text-lg font-bold text-text-default-color mb-4">
               {product.title}
             </h2>
 
             <div className="mb-6">
               <p className="text-text-default-color leading-relaxed">
                 <div
-                  className="text-text-default-color leading-relaxed space-y-2 mt-2"
+                  className="text-text-default-color leading-relaxed space-y-2 mt-2 text-sm"
                   dangerouslySetInnerHTML={{ __html: product.description }}
                 />
                 {product.description2 && isExpanded[idx] && (

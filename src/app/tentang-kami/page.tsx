@@ -49,10 +49,10 @@ const AboutUsPage = () => {
 
           <div className="md:pl-6 md:w-1/2">
             <p className="font-bold text-2xl text-text-default-color">
-              Tantang Kami
+              Tentang Kami
             </p>
             <p
-              className="text-justify text-text-default-color mt-5"
+              className="text-justify text-text-default-color mt-2"
               style={{ lineHeight: 2 }}
             >
               PT Serena Indo Pratama adalah perusahaan yang bergerak di industri
@@ -70,7 +70,7 @@ const AboutUsPage = () => {
           <div className="md:w-1/2 md:pr-10">
             <p className="font-bold text-2xl text-text-default-color">Visi</p>
             <p
-              className="text-justify text-text-default-color mt-5"
+              className="text-justify text-text-default-color mt-2"
               style={{ lineHeight: 2 }}
             >
               Menjadi perusahaan bumbu terkemuka di Indonesia dengan
@@ -109,7 +109,7 @@ const AboutUsPage = () => {
           <div className="lg:pl-6 md:w-1/2">
             <p className="font-bold text-2xl text-text-default-color">Misi</p>
             <p
-              className="text-justify text-text-default-color mt-5"
+              className="text-justify text-text-default-color mt-2"
               style={{ lineHeight: 2 }}
             >
               Kami percaya bahwa visi besar hanya dapat terwujud melalui
@@ -137,7 +137,7 @@ const AboutUsPage = () => {
           Perjalanan Kami
         </p>
         <p
-          className="text-justify text-text-default-color mt-5"
+          className="text-justify text-text-default-color mt-2"
           style={{ lineHeight: 2 }}
         >
           Setiap langkah dalam proses produksi PT Serena Indo Pratama dilakukan
