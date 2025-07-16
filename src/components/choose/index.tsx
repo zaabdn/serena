@@ -14,12 +14,12 @@ const WhyChooseUs = () => {
             key={index}
             className="border border-[#f89c13] rounded-lg p-5 hover:shadow-md transition duration-300 bg-white"
           >
-            <div className="w-30 h-30 flex items-center justify-center bg-orange-400 rounded-full mb-4">
+            <div className="w-20 h-20 flex items-center justify-center bg-orange-400 rounded-full mb-4">
               <Image
                 src={benefit.image}
                 alt={benefit.title}
-                width={index === 3 ? 120 : 80}
-                height={index === 3 ? 120 : 80}
+                width={index === 3 ? 80 : 40}
+                height={index === 3 ? 80 : 40}
               />
             </div>
             <h3 className="font-bold text-lg mb-2 text-text-default-color">
