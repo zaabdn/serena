@@ -4,7 +4,7 @@ const Jumbotron = () => {
   return (
     <section className="bg-center mt-5 rounded-2xl bg-cover bg-[url('/serena/banner.jpg')] bg-gray-400 bg-blend-multiply">
       <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1 className="font-[family-name:var(--font-libre-baskerville)] mb-4 text-4xl md:text-5xl md:px-24 leading-15 font-extrabold text-white">
+        <h1 className="font-[family-name:var(--font-libre-baskerville)] mb-4  text-lg md:text-xl lg:text-2xl  md:px-24 leading-15 font-extrabold text-white">
           Dari Lapisan Ke Kerenyahan, Inovasi Serena di Balik Setiap Gorengan
         </h1>
         <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">

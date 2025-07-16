@@ -27,7 +27,7 @@ const FooterHero = () => {
           <div className="flex-1 flex items-center justify-center">
             <h1
               style={{ lineHeight: 1.4 }}
-              className="font-[family-name:var(--font-libre-baskerville)] mb-4 text-4xl md:text-5xl md:px-24 leading-15 font-extrabold text-white"
+              className="w-full sm:w-5/6 md:w-4/5 lg:w-3/4 xl:w-2/3 text-center mx-auto text-white font-[family-name:var(--font-libre-baskerville)] text-lg md:text-xl lg:text-2xl font-extrabold"
             >
               Wujudkan gorengan terbaik dengan kualitas coating dari Serena
             </h1>
