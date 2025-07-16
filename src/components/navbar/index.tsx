@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="navbar flex items-center justify-between py-4 border-b border-line-color">
       <Link href="/">
-        <Image src={logo} alt="logo" width={125} height={57} />
+        <Image src={logo} alt="logo" width={100} height={45.6} />
       </Link>
 
       {/* Hamburger Menu Button (Mobile & Tablet) */}
@@ -62,7 +62,7 @@ const Navbar = () => {
             key={menu.path}
             href={menu.path}
             onClick={() => setIsMenuOpen(false)} // Close menu on link click
-            className={`block px-4 py-2 text-center md:text-left
+            className={`block px-4 py-2 text-center md:text-left text-sm
               ${
                 menu.path === pathname
                   ? "text-primary-color font-semibold"
@@ -75,7 +75,7 @@ const Navbar = () => {
 
         <div className="flex justify-center md:justify-start">
           <a href="https://wa.me/085157111522" target="_blank">
-            <button className="bg-primary-color cursor-pointer text-black px-6 py-2 rounded-xl hover:bg-primary-color-hover transition-colors duration-200">
+            <button className="bg-primary-color cursor-pointer text-sm text-black px-6 py-2 rounded-xl hover:bg-primary-color-hover transition-colors duration-200">
               Belanja Sekarang
             </button>
           </a>

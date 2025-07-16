@@ -2,7 +2,7 @@ import { memo } from "react";
 
 const Jumbotron = () => {
   return (
-    <section className="bg-center mt-5 rounded-2xl bg-background bg-[url('/serena/banner.png')] bg-blend-multiply">
+    <section className="bg-center mt-5 rounded-2xl bg-[url('/serena/banner.png')] bg-blend-multiply">
       <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1
           className="font-[family-name:var(--font-libre-baskerville)] mb-4 text-lg md:text-2xl md:px-24 font-extrabold text-white"
@@ -10,7 +10,7 @@ const Jumbotron = () => {
         >
           Dari Lapisan Ke Kerenyahan, Inovasi Serena di Balik Setiap Gorengan
         </h1>
-        <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+        <p className="mb-8 font-normal text-gray-300 lg:text-lg sm:px-16 lg:px-32">
           Berkomitmen selama lebih dari 15 tahun memberikan solusi bumbu dan
           pelapis berkualitas untuk kelezatan setiap sajian nusantara.
         </p>
