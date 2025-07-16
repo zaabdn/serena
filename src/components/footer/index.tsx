@@ -27,7 +27,7 @@ const FooterHero = () => {
           <div className="flex-1 flex items-center justify-center">
             <h1
               style={{ lineHeight: 1.4 }}
-              className="w-full sm:w-5/6 md:w-4/5 lg:w-3/4 xl:w-2/3 text-center mx-auto text-white font-[family-name:var(--font-libre-baskerville)] text-lg md:text-xl lg:text-2xl font-extrabold"
+              className="w-full sm:w-5/6 md:w-4/5 lg:w-3/4 text-lg md:text-xl lg:text-3xl font-extrabold text-center mx-auto text-white font-[family-name:var(--font-libre-baskerville)]"
             >
               Wujudkan gorengan terbaik dengan kualitas coating dari Serena
             </h1>
@@ -42,7 +42,7 @@ const FooterHero = () => {
                 alt="Logo Serena"
                 width={100}
                 height={42}
-                className="sm:w-[110px] sm:h-[46px] md:w-[120px] md:h-[50px] mb-3 md:mb-4"
+                className="sm:w-[110px] sm:h-[46px] md:w-[120px] md:h-[50px] my-3 md:my-4"
               />
               <div className="text-xs sm:text-sm leading-relaxed">
                 <p>

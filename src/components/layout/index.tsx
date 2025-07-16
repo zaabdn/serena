@@ -9,7 +9,7 @@ interface AppLayoutProps {
 const AppLayout = ({ children }: AppLayoutProps) => {
   return (
     <div className="min-h-screen bg-white font-[family-name:var(--font-plus-jakarta-sans)]">
-      <div className="sm:px-4 md:8px lg:max-w-3/4 lg:mx-auto pb-20">
+      <div className="px-2 sm:px-4 md:8px lg:max-w-3/4 lg:mx-auto pb-20">
         <Navbar />
         {children}
       </div>
