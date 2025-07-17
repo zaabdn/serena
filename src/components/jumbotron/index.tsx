@@ -14,11 +14,11 @@ const Jumbotron = () => {
           Berkomitmen selama lebih dari 15 tahun memberikan solusi bumbu dan
           pelapis berkualitas untuk kelezatan setiap sajian nusantara.
         </p>
-        <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+        <div className="flex w-1/2 md:w-auto mx-auto flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
           <a
             href="https://wa.me/085157111522"
             target="_blank"
-            className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-text-default-color rounded-lg bg-primary-color focus:ring-4"
+            className="inline-flex justify-center items-center py-3 px-5 text-xs font-medium text-center text-text-default-color rounded-lg bg-primary-color focus:ring-4"
           >
             Lihat Produk Kita
             <svg

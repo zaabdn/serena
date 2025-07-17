@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
       <p className="text-2xl text-text-default-color font-bold">
         Kenapa Memilih Serena?
       </p>
-      <div className="grid gap-x-2 md:grid-cols-2 lg:grid-cols-4 mt-4">
+      <div className="grid gap-2 md:grid-cols-2 lg:grid-cols-4 mt-4">
         {DATA_BENEFITS.map((benefit, index) => (
           <div
             key={index}

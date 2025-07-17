@@ -51,8 +51,8 @@ const ProcessPage = () => {
               src={process.image}
               width={245}
               height={199}
-              sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 25vw"
-              className="object-contain"
+              className="object-contain w-full md:w-auto md:max-w-[245px]"
+              sizes="(max-width: 640px) 100vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 25vw"
             />
           </div>
         ))}

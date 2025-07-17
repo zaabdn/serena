@@ -76,12 +76,12 @@ const ProductPage = () => {
             <div className="mb-6">
               <p className="text-text-default-color leading-relaxed">
                 <div
-                  className="text-text-default-color leading-relaxed space-y-2 mt-2 text-sm"
+                  className="text-text-default-color leading-relaxed space-y-2 mt-2 text-sm text-justify"
                   dangerouslySetInnerHTML={{ __html: product.description }}
                 />
                 {product.description2 && isExpanded[idx] && (
                   <div
-                    className="text-text-default-color leading-relaxed space-y-2 mt-2"
+                    className="text-text-default-color leading-relaxed space-y-2 mt-2 text-sm text-justify"
                     dangerouslySetInnerHTML={{ __html: product.description2 }}
                   />
                 )}
