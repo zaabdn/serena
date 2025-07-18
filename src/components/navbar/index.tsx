@@ -74,7 +74,7 @@ const Navbar = () => {
         ))}
 
         <div className="flex justify-center md:justify-start">
-          <a href="https://wa.me/085157111522" target="_blank">
+          <a href="https://wa.me/6285157111522" target="_blank">
             <button className="bg-primary-color cursor-pointer text-sm text-black px-6 py-2 rounded-xl hover:bg-primary-color-hover transition-colors duration-200">
               Belanja Sekarang
             </button>

@@ -16,7 +16,7 @@ const Jumbotron = () => {
         </p>
         <div className="flex w-1/2 md:w-auto mx-auto flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
           <a
-            href="https://wa.me/085157111522"
+            href="https://wa.me/6285157111522"
             target="_blank"
             className="inline-flex justify-center items-center py-3 px-5 text-xs font-medium text-center text-text-default-color rounded-lg bg-primary-color focus:ring-4"
           >

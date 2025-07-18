@@ -66,7 +66,7 @@ const FooterHero = () => {
                 Yuk, ngobrol dengan tim Serena sekarang
               </p>
               <a
-                href="https://wa.me/085157111522"
+                href="https://wa.me/6285157111522"
                 target="_blank"
                 rel="noopener noreferrer"
               >
