@@ -4,9 +4,9 @@ import { memo } from "react";
 
 const FooterHero = () => {
   return (
-    <footer className="relative w-full mt-5">
+    <footer className="relative w-full mt-5 mx-0">
       {/* Background Image */}
-      <div className="relative h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px] xl:h-[500px] w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-40">
+      <div className="relative h-[400px] lg:h-[450px] xl:h-[500px] w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-40">
         <Image
           src="/serena/footer.jpg"
           alt="Serena team meeting"
@@ -20,7 +20,7 @@ const FooterHero = () => {
           fill
           className="object-cover absolute bottom-0"
         />
-        <div className="absolute inset-0 bg-black bg-blend-multiply opacity-10" />
+        {/* <div className="absolute inset-0 bg-black bg-blend-multiply opacity-10" /> */}
 
         <div className="absolute inset-0 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-40 py-6 sm:py-8 md:py-10 lg:py-12 flex flex-col justify-between text-white">
           {/* Main Heading */}
@@ -65,12 +65,9 @@ const FooterHero = () => {
               <p className="text-sm sm:text-base mb-3 md:mb-4">
                 Yuk, ngobrol dengan tim Serena sekarang
               </p>
-              <a
-                href="https://wa.me/6285157111522"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="cursor-pointer bg-primary-color text-text-default-color px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-md text-sm sm:text-base transition hover:opacity-90 active:scale-95">
+
+              <a href="https://wa.me/6285157111522" target="_blank">
+                <button className="bg-primary-color cursor-pointer text-sm text-black px-4 py-2 sm:px-5 md:px-6 rounded-xl hover:bg-primary-color-hover transition-colors duration-200">
                   Hubungi Kami
                 </button>
               </a>

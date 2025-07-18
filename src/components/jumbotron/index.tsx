@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { memo } from "react";
 
 const Jumbotron = () => {
@@ -15,12 +16,8 @@ const Jumbotron = () => {
           pelapis berkualitas untuk kelezatan setiap sajian nusantara.
         </p>
         <div className="flex w-1/2 md:w-auto mx-auto flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-          <a
-            href="https://wa.me/6285157111522"
-            target="_blank"
-            className="inline-flex justify-center items-center py-3 px-5 text-xs font-medium text-center text-text-default-color rounded-lg bg-primary-color focus:ring-4"
-          >
-            Lihat Produk Kita
+          <Link href="/produk">
+            Lihat Produk Kami
             <svg
               className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
               aria-hidden="true"
@@ -36,7 +33,7 @@ const Jumbotron = () => {
                 d="M1 5h12m0 0L9 1m4 4L9 9"
               />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
