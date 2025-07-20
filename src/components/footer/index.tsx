@@ -62,7 +62,10 @@ const FooterHero = () => {
 
             {/* Contact CTA */}
             <div className="flex flex-col items-center lg:items-end text-center lg:text-right">
-              <p className="text-sm sm:text-base mb-3 md:mb-4">
+              <p
+                className="text-sm sm:text-base mb-3 md:mb-4"
+                style={{ textShadow: "3px 3px 9px rgba(0, 0, 0, 0.6)" }}
+              >
                 Yuk, ngobrol dengan tim Serena sekarang
               </p>
 
