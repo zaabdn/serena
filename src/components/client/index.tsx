@@ -1,6 +1,7 @@
 "use client";
 
 import { DATA_CLIENTS } from "@/constants/content-home";
+import { Plus } from "lucide-react";
 import Image from "next/image";
 import { memo } from "react";
 
@@ -26,6 +27,13 @@ const Client = () => {
             />
           </div>
         ))}
+        <div className="flex flex-row items-center justify-center md:-ml-10">
+          <Plus color="black" />
+          <Plus color="black" className="-ml-1" />
+          <h2 className="text-lg md:text-2xl text-text-default-color font-bold">
+            UMKM Lainnya
+          </h2>
+        </div>
       </div>
     </section>
   );

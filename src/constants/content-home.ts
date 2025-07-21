@@ -7,10 +7,13 @@ import product1 from "@/assets/images/product1.png";
 import product2 from "@/assets/images/product2.png";
 import product3 from "@/assets/images/product3.png";
 
-import client1 from "@/assets/images/client1.png";
-import client2 from "@/assets/images/client2.png";
-import client3 from "@/assets/images/client3.png";
-import client4 from "@/assets/images/client4.png";
+import client1 from "@/assets/images/home/client/client1.png";
+import client2 from "@/assets/images/home/client/client2.png";
+import client3 from "@/assets/images/home/client/client3.png";
+import client4 from "@/assets/images/home/client/client4.png";
+import client5 from "@/assets/images/home/client/client5.jpg";
+import client6 from "@/assets/images/home/client/client6.png";
+import client7 from "@/assets/images/home/client/client7.png";
 
 import benefit3 from "@/assets/images/home/diagram.png";
 import benefit4 from "@/assets/images/home/partner.png";
@@ -69,6 +72,20 @@ export const DATA_PRODUCTS = [
     description: "Memberikan hasil gorengan yang crispy dan menggugah selera.",
     image: product3,
   },
+  {
+    id: 4,
+    title: "Marinade",
+    description:
+      "Rasa meresap lebih dalam dan hasil akhir menjadi lebih juicy serta tahan lama.",
+    image: product2,
+  },
+  {
+    id: 5,
+    title: "Breadcrumb",
+    description:
+      "Memberikan lapisan akhir yang renyah dan tahan lama untuk hasil gorengan yang lebih menggugah selera.",
+    image: product1,
+  },
 ] as const;
 
 export const DATA_CLIENTS = [
@@ -87,6 +104,18 @@ export const DATA_CLIENTS = [
   {
     id: 4,
     image: client4,
+  },
+  {
+    id: 5,
+    image: client5,
+  },
+  {
+    id: 6,
+    image: client6,
+  },
+  {
+    id: 7,
+    image: client7,
   },
 ] as const;
 

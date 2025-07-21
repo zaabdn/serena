@@ -16,13 +16,13 @@ const Product = () => {
         Anda menghasilkan sajian berkualitas secara konsisten.
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-5 md:gap-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 mt-5 md:gap-4">
         {DATA_PRODUCTS.map((product) => (
           <div
             key={product.title}
             className="flex flex-col items-center bg-white rounded-lg overflow-hidden"
           >
-            <div className="relative w-full rounded h-60 md:h-52 lg:h-60 bg-gray-100 flex items-center justify-center">
+            <div className="relative w-full rounded h-60 md:h-52 lg:h-48 bg-gray-100 flex items-center justify-center">
               <Image
                 src={product.image.src}
                 alt={product.image.src || `Gambar produk ${product.title}`}

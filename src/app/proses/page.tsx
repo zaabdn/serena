@@ -6,7 +6,9 @@ import { LIST_PROCESS } from "@/constants/content-process";
 import Image from "next/image";
 
 const ProcessPage = () => {
-  const pdfUrl = "/serena/SertifikatSerena.pdf";
+  const urlSertifikatISO = "/serena/SertifikatSerena.pdf";
+  const urlSertifikatHalal = "/serena/SertifikatHalal.pdf";
+  const urlSertifikatCPPOB = "/serena/SertifikatCPPOB.pdf";
 
   return (
     <AppLayout>
@@ -64,7 +66,37 @@ const ProcessPage = () => {
         </h2>
         <div className="w-full h-[50vh] md:h-[100vh] bg-white shadow-lg rounded-lg overflow-hidden">
           <iframe
-            src={pdfUrl}
+            src={urlSertifikatISO}
+            title="Embedded PDF"
+            className="w-full h-full border-none"
+            allowFullScreen
+          >
+            This browser does not support PDFs. Please download the PDF to view
+            it:
+          </iframe>
+        </div>
+
+        <h2 className="text-lg font-bold text-text-default-color mb-4 mt-12">
+          Sertifikat Halal
+        </h2>
+        <div className="w-full h-[50vh] md:h-[100vh] bg-white shadow-lg rounded-lg overflow-hidden">
+          <iframe
+            src={urlSertifikatHalal}
+            title="Embedded PDF"
+            className="w-full h-full border-none"
+            allowFullScreen
+          >
+            This browser does not support PDFs. Please download the PDF to view
+            it:
+          </iframe>
+        </div>
+
+        <h2 className="text-lg font-bold text-text-default-color mb-4 mt-12">
+          Sertifikat CPPOB
+        </h2>
+        <div className="w-full h-[50vh] md:h-[100vh] bg-white shadow-lg rounded-lg overflow-hidden">
+          <iframe
+            src={urlSertifikatCPPOB}
             title="Embedded PDF"
             className="w-full h-full border-none"
             allowFullScreen
