@@ -6,6 +6,8 @@ import support from "@/assets/images/support.png";
 import product1 from "@/assets/images/product1.png";
 import product2 from "@/assets/images/product2.png";
 import product3 from "@/assets/images/product3.png";
+import product4 from "@/assets/images/product4.png";
+import product5 from "@/assets/images/product5.png";
 
 import client1 from "@/assets/images/home/client/client1.png";
 import client2 from "@/assets/images/home/client/client2.png";
@@ -77,14 +79,14 @@ export const DATA_PRODUCTS = [
     title: "Marinade",
     description:
       "Rasa meresap lebih dalam dan hasil akhir menjadi lebih juicy serta tahan lama.",
-    image: product2,
+    image: product4,
   },
   {
     id: 5,
     title: "Breadcrumb",
     description:
       "Memberikan lapisan akhir yang renyah dan tahan lama untuk hasil gorengan yang lebih menggugah selera.",
-    image: product1,
+    image: product5,
   },
 ] as const;
 
