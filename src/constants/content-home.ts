@@ -7,7 +7,7 @@ import product1 from "@/assets/images/product1.png";
 import product2 from "@/assets/images/product2.png";
 import product3 from "@/assets/images/product3.png";
 import product4 from "@/assets/images/product4.png";
-import product5 from "@/assets/images/product5.png";
+import product5 from "@/assets/images/product5.jpg";
 
 import client1 from "@/assets/images/home/client/client1.png";
 import client2 from "@/assets/images/home/client/client2.png";
