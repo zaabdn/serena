@@ -16,7 +16,10 @@ const Jumbotron = () => {
           pelapis berkualitas untuk kelezatan setiap sajian nusantara.
         </p>
         <div className="flex w-1/2 md:w-auto mx-auto flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-          <Link href="/produk">
+          <Link
+            href="/produk"
+            className="inline-flex justify-center items-center py-3 px-5 text-xs font-medium text-center text-text-default-color rounded-lg bg-primary-color focus:ring-4"
+          >
             Lihat Produk Kami
             <svg
               className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
