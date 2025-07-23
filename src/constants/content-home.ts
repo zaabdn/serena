@@ -16,6 +16,8 @@ import client4 from "@/assets/images/home/client/client4.png";
 import client5 from "@/assets/images/home/client/client5.jpg";
 import client6 from "@/assets/images/home/client/client6.png";
 import client7 from "@/assets/images/home/client/client7.png";
+import client8 from "@/assets/images/home/client/client8.png";
+import client9 from "@/assets/images/home/client/client9.jpg";
 
 import benefit3 from "@/assets/images/home/diagram.png";
 import benefit4 from "@/assets/images/home/partner.png";
@@ -118,6 +120,14 @@ export const DATA_CLIENTS = [
   {
     id: 7,
     image: client7,
+  },
+  {
+    id: 8,
+    image: client8,
+  },
+  {
+    id: 9,
+    image: client9,
   },
 ] as const;
 

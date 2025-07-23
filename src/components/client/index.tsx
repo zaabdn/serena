@@ -12,7 +12,7 @@ const Client = () => {
         Kepercayaan Mereka, Kebanggaan Kami
       </p>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 justify-items-center items-center py-5">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6 lg:gap-8 justify-items-center items-center py-5">
         {DATA_CLIENTS.map((client) => (
           <div
             key={client.id}
@@ -27,7 +27,7 @@ const Client = () => {
             />
           </div>
         ))}
-        <div className="flex flex-row items-center justify-center md:-ml-10">
+        <div className="flex flex-row items-center justify-center">
           <Plus color="black" />
           <Plus color="black" className="-ml-1" />
           <h2 className="text-lg md:text-2xl text-text-default-color font-bold">
