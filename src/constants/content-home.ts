@@ -15,7 +15,7 @@ import client3 from "@/assets/images/home/client/client3.png";
 import client4 from "@/assets/images/home/client/client4.png";
 import client5 from "@/assets/images/home/client/client5.jpg";
 import client6 from "@/assets/images/home/client/client6.png";
-import client7 from "@/assets/images/home/client/client7.png";
+import client7 from "@/assets/images/home/client/client7.jpeg";
 import client8 from "@/assets/images/home/client/client8.png";
 import client9 from "@/assets/images/home/client/client9.jpg";
 
