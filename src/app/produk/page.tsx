@@ -11,10 +11,27 @@ import {
 import DOMPurify from "dompurify";
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const ProductPage = () => {
   const [isExpanded, setIsExpanded] = useState(LIST_PRODUCTS.map(() => false));
+
+  const [sanitizeData, setSanitizeData] = useState([...LIST_PRODUCTS]);
+
+  useEffect(() => {
+    import("dompurify").then((dompurify) => {
+      const data = LIST_PRODUCTS.map((product) => {
+        return {
+          ...product,
+          description: dompurify.default.sanitize(product.description),
+          description2: product.description2
+            ? dompurify.default.sanitize(product.description2)
+            : "",
+        };
+      });
+      setSanitizeData(data);
+    });
+  }, []);
 
   return (
     <AppLayout>
@@ -62,7 +79,7 @@ const ProductPage = () => {
       </section>
 
       <section className="container mt-10">
-        {LIST_PRODUCTS.map((product, idx) => (
+        {sanitizeData.map((product, idx) => (
           <div
             className="mx-auto p-6 bg-[#FFF9F4] rounded-lg mt-6"
             key={product.id}
