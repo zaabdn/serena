@@ -8,6 +8,7 @@ import {
   DATA_IMAGE_PRODUCTS,
   LIST_PRODUCTS,
 } from "@/constants/content-product";
+import DOMPurify from "dompurify";
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
@@ -74,12 +75,16 @@ const ProductPage = () => {
               <p className="text-text-default-color leading-relaxed">
                 <div
                   className="text-text-default-color leading-relaxed space-y-2 mt-2 text-sm text-justify"
-                  dangerouslySetInnerHTML={{ __html: product.description }}
+                  dangerouslySetInnerHTML={{
+                    __html: DOMPurify.sanitize(product.description),
+                  }}
                 />
                 {product.description2 && isExpanded[idx] && (
                   <div
                     className="text-text-default-color leading-relaxed space-y-2 mt-2 text-sm text-justify"
-                    dangerouslySetInnerHTML={{ __html: product.description2 }}
+                    dangerouslySetInnerHTML={{
+                      __html: DOMPurify.sanitize(product.description2),
+                    }}
                   />
                 )}
               </p>
