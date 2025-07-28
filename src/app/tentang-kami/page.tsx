@@ -48,7 +48,9 @@ const AboutUsPage = () => {
             <p
               className="text-justify text-text-default-color mt-2"
               style={{ lineHeight: 2 }}
-            ></p>
+            >
+              {CONTENT_ABOUT_US.vision}
+            </p>
           </div>
 
           <div className="">
