@@ -1,32 +1,30 @@
 "use client";
 
 import AppLayout from "@/components/layout";
-import { LIST_PROCESS } from "@/constants/content-process";
+import { CONTENT_PROCESS, LIST_PROCESS } from "@/constants/content-process";
 
 import Image from "next/image";
 
 const ProcessPage = () => {
-  const urlSertifikatISO = "/serena/SertifikatSerena.pdf";
-  const urlSertifikatHalal = "/serena/SertifikatHalal.pdf";
-  const urlSertifikatCPPOB = "/serena/SertifikatCPPOB.pdf";
+  const urlSertifikatISO = "/serena/SertifikatSerena.pdf" as const;
+  const urlSertifikatHalal = "/serena/SertifikatHalal.pdf" as const;
+  const urlSertifikatCPPOB = "/serena/SertifikatCPPOB.pdf" as const;
+
+  const browserNotSupport =
+    "This browser does not support PDFs. Please download the PDF to view it:" as const;
 
   return (
     <AppLayout>
       <section className="container mt-5">
         <div className="flex flex-col overflow-hidden">
           <p className="font-bold text-2xl text-text-default-color">
-            Proses Kami: Menjamin Kehalalan dan Kualitas Produk dengan Standar
-            Tertinggi
+            {CONTENT_PROCESS.title}
           </p>
           <p
             className="text-justify text-text-default-color mt-5"
             style={{ lineHeight: 2 }}
           >
-            Setiap langkah dalam proses produksi PT Serena Indo Pratama
-            dilakukan dengan perhatian penuh terhadap kualitas dan kehalalan.
-            Mulai dari pemeriksaan bahan baku hingga produk jadi, kami
-            memastikan setiap langkahnya menjamin <b>keamanan</b>,
-            <b> kehalalan</b>, dan <b> konsistensi kualitas</b>.
+            {CONTENT_PROCESS.description}
           </p>
         </div>
       </section>
@@ -71,8 +69,7 @@ const ProcessPage = () => {
             className="w-full h-full border-none"
             allowFullScreen
           >
-            This browser does not support PDFs. Please download the PDF to view
-            it:
+            {browserNotSupport}
           </iframe>
         </div>
 
@@ -86,8 +83,7 @@ const ProcessPage = () => {
             className="w-full h-full border-none"
             allowFullScreen
           >
-            This browser does not support PDFs. Please download the PDF to view
-            it:
+            {browserNotSupport}
           </iframe>
         </div>
 
@@ -101,8 +97,7 @@ const ProcessPage = () => {
             className="w-full h-full border-none"
             allowFullScreen
           >
-            This browser does not support PDFs. Please download the PDF to view
-            it:
+            {browserNotSupport}
           </iframe>
         </div>
       </section>

@@ -1,13 +1,13 @@
-import customerService from "@/assets/images/customer-service.png";
-import innovation from "@/assets/images/innovation.png";
-import quality from "@/assets/images/quality-value.png";
-import support from "@/assets/images/support.png";
+import customerService from "@/assets/images/home/values/customer-service.png";
+import innovation from "@/assets/images/home/values/innovation.png";
+import quality from "@/assets/images/home/values/quality-value.png";
+import support from "@/assets/images/home/values/support.png";
 
-import product1 from "@/assets/images/product1.png";
-import product2 from "@/assets/images/product2.png";
-import product3 from "@/assets/images/product3.png";
-import product4 from "@/assets/images/product4.png";
-import product5 from "@/assets/images/product5.jpg";
+import product1 from "@/assets/images/home/product/product1.png";
+import product2 from "@/assets/images/home/product/product2.png";
+import product3 from "@/assets/images/home/product/product3.png";
+import product4 from "@/assets/images/home/product/product4.png";
+import product5 from "@/assets/images/home/product/product5.jpg";
 
 import client1 from "@/assets/images/home/client/client1.png";
 import client2 from "@/assets/images/home/client/client2.png";
@@ -19,10 +19,10 @@ import client7 from "@/assets/images/home/client/client7.jpeg";
 import client8 from "@/assets/images/home/client/client8.png";
 import client9 from "@/assets/images/home/client/client9.jpg";
 
-import benefit3 from "@/assets/images/home/diagram.png";
-import benefit4 from "@/assets/images/home/partner.png";
-import benefit2 from "@/assets/images/home/quality.png";
-import benefit1 from "@/assets/images/home/role-model.png";
+import benefit3 from "@/assets/images/home/benefit/diagram.png";
+import benefit4 from "@/assets/images/home/benefit/partner.png";
+import benefit2 from "@/assets/images/home/benefit/quality.png";
+import benefit1 from "@/assets/images/home/benefit/role-model.png";
 
 export const DATA_VALUES = [
   {

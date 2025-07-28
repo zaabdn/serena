@@ -4,6 +4,13 @@ import process3 from "@/assets/images/proses/process3.png";
 import process4 from "@/assets/images/proses/process4.png";
 import process5 from "@/assets/images/proses/process5.png";
 
+export const CONTENT_PROCESS = {
+  title:
+    "Proses Kami: Menjamin Kehalalan dan Kualitas Produk dengan Standar Tertinggi",
+  description:
+    "Setiap langkah dalam proses produksi PT Serena Indo Pratama dilakukan dengan perhatian penuh terhadap kualitas dan kehalalan. Mulai dari pemeriksaan bahan baku hingga produk jadi, kami memastikan setiap langkahnya menjamin <b>keamanan</b>, <b> kehalalan</b>, dan <b> konsistensi kualitas</b>.",
+};
+
 export const LIST_PROCESS = [
   {
     id: 1,

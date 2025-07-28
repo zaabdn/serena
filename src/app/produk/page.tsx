@@ -4,6 +4,7 @@ import image1 from "@/assets/images/produk/image1.png";
 import AppLayout from "@/components/layout";
 
 import {
+  CONTENT_PRODUCT,
   DATA_IMAGE_PRODUCTS,
   LIST_PRODUCTS,
 } from "@/constants/content-product";
@@ -20,17 +21,13 @@ const ProductPage = () => {
         <div className="flex flex-col md:flex-row items-center overflow-hidden justify-between">
           <div className="md:w-2/3 md:pr-10">
             <p className="font-bold text-2xl text-text-default-color">
-              Solusi Food Coating Berkualitas untuk Industri Pangan
+              {CONTENT_PRODUCT.title}
             </p>
             <p
               className="text-justify text-text-default-color mt-2"
               style={{ lineHeight: 2 }}
             >
-              Di Serena Indo Pratama, kami percaya bahwa kualitas sajian dimulai
-              dari lapisan luar yang sempurna. Karena itu, kami menghadirkan
-              produk food coating yang diformulasikan untuk menghasilkan tekstur
-              renyah, rasa lezat, dan tampilan menarik, cocok digunakan oleh
-              industri makanan, restoran, hingga pelaku UMKM.
+              {CONTENT_PRODUCT.description}
             </p>
           </div>
 

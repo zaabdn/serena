@@ -2,6 +2,12 @@ import image2 from "@/assets/images/produk/image2.png";
 import image3 from "@/assets/images/produk/image3.png";
 import image4 from "@/assets/images/produk/image4.png";
 
+export const CONTENT_PRODUCT = {
+  title: "Solusi Food Coating Berkualitas untuk Industri Pangan",
+  description:
+    "Di Serena Indo Pratama, kami percaya bahwa kualitas sajian dimulai dari lapisan luar yang sempurna. Karena itu, kami menghadirkan produk food coating yang diformulasikan untuk menghasilkan tekstur renyah, rasa lezat, dan tampilan menarik, cocok digunakan oleh industri makanan, restoran, hingga pelaku UMKM.",
+};
+
 export const LIST_PRODUCTS = [
   {
     id: 1,

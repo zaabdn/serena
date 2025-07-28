@@ -4,34 +4,14 @@ import image1 from "@/assets/images/tentang-kami/about-us.png";
 import image3 from "@/assets/images/tentang-kami/mision.png";
 import image2 from "@/assets/images/tentang-kami/vision.png";
 import AppLayout from "@/components/layout";
+import {
+  CONTENT_ABOUT_US,
+  DATA_MILESTONES,
+  DATA_MISSIONS,
+} from "@/constants/content-about-us";
 import Image from "next/image";
 
 const AboutUsPage = () => {
-  const missions = [
-    "Menyediakan produk pangan yang halal dan berkualitas dengan harga kompetitif agar dapat dijangkau berbagai lapisan masyarakat.",
-    "Menjaga kualitas secara konsisten serta terus berinovasi mengikuti perkembangan teknologi dalam proses produksi.",
-    "Memberikan pelayanan terbaik kepada pelanggan dan mitra bisnis demi menciptakan hubungan yang saling menguntungkan.",
-    "Menjadi mitra kerja yang andal dalam membantu memenuhi kebutuhan pelanggan secara tepat dan profesional.",
-  ];
-
-  const milestones = [
-    {
-      year: "2008",
-      description:
-        "Kami berdiri dengan nama Jakarta Food Coating, memulai perjalanan di industri pangan dengan fokus pada produksi bread crumb sebagai produk utama kami.",
-    },
-    {
-      year: "2017",
-      description:
-        "Kami berevolusi menjadi PT Anugrah Pangan Selaras dan memperluas lini produk, mencakup predust, batter mix, batter breader, breader, dan marinade.",
-    },
-    {
-      year: "2023",
-      description:
-        "Dengan semangat inovasi, kami menambah variasi produk menjadi lebih lengkap, termasuk premix, untuk menjawab kebutuhan industri yang terus berkembang.",
-    },
-  ];
-
   return (
     <AppLayout>
       <section className="container mt-5">
@@ -55,11 +35,7 @@ const AboutUsPage = () => {
               className="text-justify text-text-default-color mt-2"
               style={{ lineHeight: 2 }}
             >
-              PT Serena Indo Pratama adalah perusahaan yang bergerak di industri
-              bumbu dan pelapis makanan sejak 2008. Berawal dari nama Jakarta
-              Food Coating, kami telah berkembang menjadi produsen terpercaya
-              yang menyediakan berbagai jenis food coating seperti predust,
-              battermix, seasoned battermix, marinade, premix hingga breadcrumb.
+              {CONTENT_ABOUT_US.description}
             </p>
           </div>
         </div>
@@ -72,12 +48,7 @@ const AboutUsPage = () => {
             <p
               className="text-justify text-text-default-color mt-2"
               style={{ lineHeight: 2 }}
-            >
-              Menjadi perusahaan bumbu terkemuka di Indonesia dengan
-              menghadirkan produk yang unggul secara kualitas dan kuantitas,
-              mampu berdiri secara mandiri, serta dikenal dan dipercaya oleh
-              masyarakat luas.
-            </p>
+            ></p>
           </div>
 
           <div className="">
@@ -112,14 +83,11 @@ const AboutUsPage = () => {
               className="text-justify text-text-default-color mt-2"
               style={{ lineHeight: 2 }}
             >
-              Kami percaya bahwa visi besar hanya dapat terwujud melalui
-              langkah-langkah yang terarah dan konsisten. Karena itu, kami
-              menetapkan misi berikut sebagai dasar dari setiap tindakan dan
-              keputusan kami:
+              {CONTENT_ABOUT_US.mission}
             </p>
             <div className="container mx-auto pl-5 mt-4">
               <ul className="list-disc space-y-3 leading-relaxed">
-                {missions.map((mission, index) => (
+                {DATA_MISSIONS.map((mission, index) => (
                   <li key={index}>
                     <p className="text-justify text-text-default-color">
                       {mission}
@@ -140,28 +108,21 @@ const AboutUsPage = () => {
           className="text-justify text-text-default-color mt-2"
           style={{ lineHeight: 2 }}
         >
-          Setiap langkah dalam proses produksi PT Serena Indo Pratama dilakukan
-          dengan perhatian penuh terhadap kualitas dan kehalalan. Mulai dari
-          pemeriksaan bahan baku hingga produk jadi, kami memastikan setiap
-          langkahnya menjamin keamanan, kehalalan, dan konsistensi kualitas.
+          {CONTENT_ABOUT_US.milestone}
         </p>
 
-        {/* Responsive Timeline */}
         <div className="relative mt-8 sm:mt-10 md:mt-12">
-          {/* Timeline Line */}
           <div className="absolute left-4 sm:left-6 md:left-8 top-0 bottom-0 w-0.5 bg-[#E8DED1]" />
 
-          {milestones.map((milestone, index) => (
+          {DATA_MILESTONES.map((milestone, index) => (
             <div
               key={index}
               className="relative mb-8 sm:mb-10 md:mb-12 flex items-start"
             >
-              {/* Timeline Circle */}
               <div className="relative flex-shrink-0">
                 <div className="bg-white lg:ml-5 rounded-full border-2 border-black w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 flex items-center justify-center ml-2 sm:ml-3 md:ml-4 relative z-10" />
               </div>
 
-              {/* Content */}
               <div className="ml-6 sm:ml-8 md:ml-10 mt-[-2px] sm:mt-[-4px] flex-1 min-w-0">
                 <h3 className="font-semibold text-sm sm:text-base md:text-lg text-text-default-color mb-1 sm:mb-2">
                   {milestone.year}
