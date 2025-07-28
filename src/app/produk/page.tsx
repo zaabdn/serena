@@ -16,7 +16,14 @@ import { useEffect, useState } from "react";
 const ProductPage = () => {
   const [isExpanded, setIsExpanded] = useState(LIST_PRODUCTS.map(() => false));
 
-  const [sanitizeData, setSanitizeData] = useState([...LIST_PRODUCTS]);
+  const [sanitizeData, setSanitizeData] = useState<
+    Array<{
+      id: number;
+      title: string;
+      description: string;
+      description2: string;
+    }>
+  >([]);
 
   useEffect(() => {
     import("dompurify").then((dompurify) => {
