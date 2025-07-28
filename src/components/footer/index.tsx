@@ -69,7 +69,7 @@ const FooterHero = () => {
                 Yuk, ngobrol dengan tim Serena sekarang
               </p>
 
-              <a href="https://wa.me/6285157111522" target="_blank">
+              <a href="https://wa.me/6285353114285" target="_blank">
                 <button className="bg-primary-color cursor-pointer text-sm text-black px-4 py-2 sm:px-5 md:px-6 rounded-xl hover:bg-primary-color-hover transition-colors duration-200">
                   Hubungi Kami
                 </button>
