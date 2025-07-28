@@ -2,7 +2,8 @@
 
 import AppLayout from "@/components/layout";
 import { CONTENT_PROCESS, LIST_PROCESS } from "@/constants/content-process";
-import DOMPurify from "dompurify";
+
+import { useEffect, useState } from "react";
 
 import Image from "next/image";
 
@@ -13,6 +14,16 @@ const ProcessPage = () => {
 
   const browserNotSupport =
     "This browser does not support PDFs. Please download the PDF to view it:" as const;
+
+  const [purifiedDescription, setPurifiedDescription] = useState("");
+
+  useEffect(() => {
+    import("dompurify").then((dompurify) => {
+      setPurifiedDescription(
+        dompurify.default.sanitize(CONTENT_PROCESS.description)
+      );
+    });
+  }, []);
 
   return (
     <AppLayout>
@@ -25,7 +36,7 @@ const ProcessPage = () => {
             className="text-justify text-text-default-color mt-5"
             style={{ lineHeight: 2 }}
             dangerouslySetInnerHTML={{
-              __html: DOMPurify.sanitize(CONTENT_PROCESS.description),
+              __html: purifiedDescription,
             }}
           />
         </div>
